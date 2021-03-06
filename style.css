@@ -1,0 +1,70 @@
+@import url("https://use.typekit.net/eia7dfc.css");
+@import url("https://fonts.googleapis.com/css2?family=Bellota:wght@700&family=Bree+Serif&family=Courier+Prime:wght@400;700&family=Cutive&family=Sanchez&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: futura-pt, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  /* font-style: bold; */
+  display: flex;
+  align-items: center;
+  height: 100%;
+  height: 100vh;
+
+  color: black;
+
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg")
+    no-repeat center center/cover;
+}
+
+.large-header {
+  position: relative;
+  width: 100%;
+  background: #111;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;
+  z-index: 1;
+}
+
+.demo .large-header {
+  background-image: url("https://images.unsplash.com/photo-1424460421773-58b49adfc68a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2850&q=80");
+}
+
+/* https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg */
+
+/* https://images.unsplash.com/photo-1424460421773-58b49adfc68a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2850&q=80 */
+
+.main-title {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  color: #fcf7f3;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+
+  /* color: #f9f1e9; */
+  /* color: rgb(239, 246, 255); */
+  /* color: rgb(255, 38, 0); */
+}
+
+.demo .main-title {
+  text-transform: uppercase;
+  font-size: 8em;
+  letter-spacing: 0.005em;
+}
+
+/* .main-title .thin {
+  font-weight: 200;
+} */
+
+@media only screen and (max-width: 768px) {
+  .demo .main-title {
+    font-size: 3em;
+  }
+}

@@ -41,7 +41,8 @@ body {
   position: absolute;
   margin: 0;
   padding: 0;
-  color: #fcf7f3;
+  color: #fdf8f3;
+
   text-align: center;
   top: 50%;
   left: 50%;
@@ -55,7 +56,7 @@ body {
 
 .demo .main-title {
   text-transform: uppercase;
-  font-size: 8em;
+  font-size: 6em;
   letter-spacing: 0.005em;
 }
 

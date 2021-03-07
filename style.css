@@ -7,65 +7,41 @@ body {
   font-family: futura-pt, sans-serif;
   font-weight: 600;
   font-style: normal;
-  /* font-style: bold; */
   display: flex;
   align-items: center;
   height: 100%;
   height: 100vh;
-
-  color: black;
-
-  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg")
+  cursor: pointer;
+  overflow: hidden;
+  background: url("https://images.unsplash.com/photo-1424460421773-58b49adfc68a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2850&q=80")
     no-repeat center center/cover;
 }
 
-.large-header {
-  position: relative;
-  width: 100%;
-  background: #111;
-  overflow: hidden;
-  background-size: cover;
-  background-position: center center;
-  z-index: 1;
-}
-
-.demo .large-header {
-  background-image: url("https://images.unsplash.com/photo-1424460421773-58b49adfc68a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2850&q=80");
-}
-
-/* https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg */
-
-/* https://images.unsplash.com/photo-1424460421773-58b49adfc68a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2850&q=80 */
-
-.main-title {
+p {
   position: absolute;
   margin: 0;
   padding: 0;
   color: #fdf8f3;
-
+  text-transform: uppercase;
+  font-size: 6em;
+  letter-spacing: 0.005em;
+  pointer-events: none;
   text-align: center;
   top: 50%;
   left: 50%;
   -webkit-transform: translate3d(-50%, -50%, 0);
   transform: translate3d(-50%, -50%, 0);
+  text-shadow: 
 
-  /* color: #f9f1e9; */
-  /* color: rgb(239, 246, 255); */
-  /* color: rgb(255, 38, 0); */
+  /*long soft bottom*/ 1px 1px 15px rgba(255, 245, 201, 0.35),
+    1px 10px 70px rgba(255, 245, 201, 0.35),
+    /*short soft bottom*/ 0px 5px 5px rgba(88, 88, 88, 0.35),
+    /*left shadow*/ -5px 5px 20px rgba(88, 88, 88, 0.35),
+    /*right shadow*/ 5px 5px 20px rgba(88, 88, 88, 0.35);
 }
-
-.demo .main-title {
-  text-transform: uppercase;
-  font-size: 6em;
-  letter-spacing: 0.005em;
-}
-
-/* .main-title .thin {
-  font-weight: 200;
-} */
 
 @media only screen and (max-width: 768px) {
-  .demo .main-title {
+  p {
     font-size: 3em;
   }
 }

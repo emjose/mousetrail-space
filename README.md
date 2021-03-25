@@ -2,7 +2,7 @@
 
 <table><tr>
 <td> <a href="https://github.com/emjose/mousetrail-particle4/#header"><img src="Assets/header-left.png" alt="next" style="width: 200px;"/></a> </td>
-<td> <a href=#header><img src="Assets/header-center.png" alt="100 days of code" style="width: 580px;"/></a> </td>
+<td> <a href="https://github.com/emjose/one-hundred/#header"><img src="Assets/header-center.png" alt="100 days of code" style="width: 580px;"/></a> </td>
 <td> <a href="https://github.com/emjose/mousetrail-wandavision/#header"><img src="Assets/header-right.png" alt="next" style="width: 200px;"/></a> </td>
 </tr></table>
 

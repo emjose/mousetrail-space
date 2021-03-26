@@ -37,7 +37,7 @@
 ### Day 24: March 8, 2021
 - I discovered a YouTube Channel called <a href="https://www.youtube.com/c/Frankslaboratory">Frank's Laboratory</a> with excellent creative coding tutorials.
 - For Day 24, I made five mouse trail effects from Frank's Laboratory (see also <a href="https://github.com/emjose/mousetrail-particle1/#header">one</a>, <a href="https://github.com/emjose/mousetrail-particle2/#header">two</a>, <a href="https://github.com/emjose/mousetrail-particle3/#header">three</a>, <a href="https://github.com/emjose/mousetrail-particle4/#header">four</a>).
-- The mouse trails use the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API">Canvas API</a> and the HTML `<canvas>` element to draw graphics and render animations.
+- The mouse trails use the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API">Canvas API</a> and the HTML `<canvas>` element to draw graphics and animations.
 
 #
 

@@ -79,6 +79,8 @@ open index.html
 
 - #### [Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)
 
+- #### [My blog on how I created my Github READMEs](https://emmanueljose.medium.com/readme-a-makeover-story-b9c7be37a6de?sk=7ae6623d365409d875753e4604e42ffd) 
+
 #
 
 <p id="lets-connect"><p>

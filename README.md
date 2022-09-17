@@ -28,6 +28,8 @@
 -   [Resources](#resources)
 -   [Let's Connect!](#lets-connect)
 
+<br>
+
 #
 
 <p id="100days"><p>
@@ -41,6 +43,8 @@
 -   For Day 24, I made five mouse trail effects from Frank's Laboratory (see also <a href="https://github.com/emjose/mousetrail-particle1/#header">one</a>, <a href="https://github.com/emjose/mousetrail-particle2/#header">two</a>, <a href="https://github.com/emjose/mousetrail-particle3/#header">three</a>, <a href="https://github.com/emjose/mousetrail-particle4/#header">four</a>).
 
 -   The mouse trails use the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API">Canvas API</a> and the HTML `<canvas>` element to draw graphics and animations.
+
+<br>
 
 #
 
@@ -62,6 +66,8 @@ open index.html
 
 #### 3. On your device, move the cursor around to see the mouse trail effect.
 
+<br>
+
 #
 
 <p id="live-site"><p>
@@ -70,6 +76,12 @@ open index.html
 
 <a href="https://emjose.github.io/mousetrail-space/">![Live Site](Assets/024-spectrum.gif)</a>
 
+• **[Spectrum Mouse Trail](https://emjose.github.io/mousetrail-space/)** is best viewed on a desktop or laptop computer browser.
+
+• **[Spectrum Mouse Trail](https://emjose.github.io/mousetrail-space/)** is a [progressive web app](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps).
+
+<br>
+
 #
 
 <p id="resources"><p>
@@ -77,6 +89,7 @@ open index.html
 <a href=#resources>![Resources](https://res.cloudinary.com/dn1e07eul/image/upload/v1659314247/Readme%20Headers/inter-resources_ncevbw.png)</a>
 
 -   #### [Bouncing Particle Effects](https://youtu.be/j_BgnpMPxzM) by [Frank's Laboratory](https://www.youtube.com/c/Frankslaboratory)
+
 -   #### [HTML5 Canvas Crash Course for Beginners](https://www.youtube.com/watch?v=Yvz_axxWG4Y) by [Frank's Laboratory](https://www.youtube.com/c/Frankslaboratory)
 
 -   #### [Creating Particles in HTML5 Canvas](https://modernweb.com/creating-particles-in-html5-canvas/)
@@ -84,6 +97,8 @@ open index.html
 -   #### [Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)
 
 -   #### [My blog on how I created my Github READMEs](https://emmanueljose.medium.com/readme-a-makeover-story-b9c7be37a6de?sk=7ae6623d365409d875753e4604e42ffd)
+
+<br>
 
 #
 

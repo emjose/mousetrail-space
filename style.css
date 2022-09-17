@@ -1,47 +1,98 @@
 @import url("https://use.typekit.net/eia7dfc.css");
 @import url("https://fonts.googleapis.com/css2?family=Bellota:wght@700&family=Bree+Serif&family=Courier+Prime:wght@400;700&family=Cutive&family=Sanchez&display=swap");
 
+:root {
+	--black: #000;
+	--white: #fff;
+	--github-fill: var(--white);
+	--github-color: #151513;
+	--github-focus: rgb(255, 123, 0);
+	--text-color: #fdf8f3;
+	--image: url("https://images.unsplash.com/photo-1424460421773-58b49adfc68a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2850&q=80")
+		no-repeat center center/cover;
+	--text-shadow: 1px 1px 15px rgba(255, 245, 201, 0.35), 1px 10px 70px rgba(255, 245, 201, 0.35),
+		0px 5px 5px rgba(88, 88, 88, 0.35), -5px 5px 20px rgba(88, 88, 88, 0.35), 5px 5px 20px rgba(88, 88, 88, 0.35);
+	--translate: translate3d(-50%, -50%, 0);
+	--futura: futura-pt, sans-serif;
+}
+
 body {
-  margin: 0;
-  padding: 0;
-  font-family: futura-pt, sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  display: flex;
-  align-items: center;
-  height: 100%;
-  height: 100vh;
-  cursor: pointer;
-  overflow: hidden;
-  background: url("https://images.unsplash.com/photo-1424460421773-58b49adfc68a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2850&q=80")
-    no-repeat center center/cover;
+	margin: 0;
+	padding: 0;
+	font-family: var(--futura);
+	font-weight: 600;
+	font-style: normal;
+	display: flex;
+	align-items: center;
+	height: 100%;
+	height: 100vh;
+	cursor: pointer;
+	overflow: hidden;
+	background: var(--image);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 p {
-  position: absolute;
-  margin: 0;
-  padding: 0;
-  color: #fdf8f3;
-  text-transform: uppercase;
-  font-size: 6em;
-  letter-spacing: 0.005em;
-  pointer-events: none;
-  text-align: center;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate3d(-50%, -50%, 0);
-  transform: translate3d(-50%, -50%, 0);
-  text-shadow: 
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: var(--text-color);
+	text-transform: uppercase;
+	font-size: 6em;
+	letter-spacing: 0.005em;
+	pointer-events: none;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: var(--translate);
+	transform: var(--translate);
+	text-shadow: var(--text-shadow);
+}
 
-  /*long soft bottom*/ 1px 1px 15px rgba(255, 245, 201, 0.35),
-    1px 10px 70px rgba(255, 245, 201, 0.35),
-    /*short soft bottom*/ 0px 5px 5px rgba(88, 88, 88, 0.35),
-    /*left shadow*/ -5px 5px 20px rgba(88, 88, 88, 0.35),
-    /*right shadow*/ 5px 5px 20px rgba(88, 88, 88, 0.35);
+.github-corner:focus svg path {
+	fill: var(--github-focus);
+}
+
+.github-corner:focus .octo-arm,
+.github-corner:focus .octo-body {
+	fill: var(--github-color);
+}
+
+.github-corner:hover .octo-arm,
+.github-corner:focus .octo-arm {
+	animation: octocat-wave 560ms ease-in-out;
+}
+
+@keyframes octocat-wave {
+	0%,
+	100% {
+		transform: rotate(0);
+	}
+
+	20%,
+	60% {
+		transform: rotate(-25deg);
+	}
+
+	40%,
+	80% {
+		transform: rotate(10deg);
+	}
+}
+
+@media (max-width: 500px) {
+	.github-corner:hover .octo-arm {
+		animation: none;
+	}
+
+	.github-corner .octo-arm {
+		animation: octocat-wave 560ms ease-in-out;
+	}
 }
 
 @media only screen and (max-width: 768px) {
-  p {
-    font-size: 3em;
-  }
+	p {
+		font-size: 3em;
+	}
 }

@@ -10,7 +10,7 @@
 
 <p id="project-title"><p>
 
-<a href=#table-of-contents>![Spectrum Mouse Trail](https://res.cloudinary.com/dn1e07eul/image/upload/v1659385855/Readme%20Headers/inter-024-spectrum_hri2gh.png)</a>
+<a href=#table-of-contents>![Spectrum Mouse Trail](https://res.cloudinary.com/dn1e07eul/image/upload/v1676140875/Readme%20Headers/inter-024-spectrum_wvnezx.png)</a>
 
 <br>
 
@@ -22,11 +22,11 @@
 
 <a href=#table-of-contents>![Table of Contents](https://res.cloudinary.com/dn1e07eul/image/upload/v1659241355/Readme%20Headers/inter-toc_euxbbw.png)</a>
 
--   [100 Days of Code](#100days)
--   [Installation](#installation)
--   [Live Site](#live-site)
--   [Resources](#resources)
--   [Let's Connect!](#lets-connect)
+- [100 Days of Code](#100days)
+- [Installation](#installation)
+- [Live Site](#live-site)
+- [Resources](#resources)
+- [Let's Connect!](#lets-connect)
 
 <br>
 
@@ -38,11 +38,11 @@
 
 ### Day 24: March 8, 2021
 
--   I discovered a YouTube Channel called <a href="https://www.youtube.com/c/Frankslaboratory">Frank's Laboratory</a> with excellent creative coding tutorials.
+- I discovered a YouTube Channel called <a href="https://www.youtube.com/c/Frankslaboratory">Frank's Laboratory</a> with excellent creative coding tutorials.
 
--   For Day 24, I made five mouse trail effects from Frank's Laboratory (see also <a href="https://github.com/emjose/mousetrail-particle1/#header">one</a>, <a href="https://github.com/emjose/mousetrail-particle2/#header">two</a>, <a href="https://github.com/emjose/mousetrail-particle3/#header">three</a>, <a href="https://github.com/emjose/mousetrail-particle4/#header">four</a>).
+- For Day 24, I made five mouse trail effects from Frank's Laboratory (see also <a href="https://github.com/emjose/mousetrail-particle1/#header">one</a>, <a href="https://github.com/emjose/mousetrail-particle2/#header">two</a>, <a href="https://github.com/emjose/mousetrail-particle3/#header">three</a>, <a href="https://github.com/emjose/mousetrail-particle4/#header">four</a>).
 
--   The mouse trails use the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API">Canvas API</a> and the HTML `<canvas>` element to draw graphics and animations.
+- The mouse trails use the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API">Canvas API</a> and the HTML `<canvas>` element to draw graphics and animations.
 
 <br>
 
@@ -88,15 +88,15 @@ open index.html
 
 <a href=#resources>![Resources](https://res.cloudinary.com/dn1e07eul/image/upload/v1659314247/Readme%20Headers/inter-resources_ncevbw.png)</a>
 
--   #### [Bouncing Particle Effects](https://youtu.be/j_BgnpMPxzM) by [Frank's Laboratory](https://www.youtube.com/c/Frankslaboratory)
+- #### [Bouncing Particle Effects](https://youtu.be/j_BgnpMPxzM) by [Frank's Laboratory](https://www.youtube.com/c/Frankslaboratory)
 
--   #### [HTML5 Canvas Crash Course for Beginners](https://www.youtube.com/watch?v=Yvz_axxWG4Y) by [Frank's Laboratory](https://www.youtube.com/c/Frankslaboratory)
+- #### [HTML5 Canvas Crash Course for Beginners](https://www.youtube.com/watch?v=Yvz_axxWG4Y) by [Frank's Laboratory](https://www.youtube.com/c/Frankslaboratory)
 
--   #### [Creating Particles in HTML5 Canvas](https://modernweb.com/creating-particles-in-html5-canvas/)
+- #### [Creating Particles in HTML5 Canvas](https://modernweb.com/creating-particles-in-html5-canvas/)
 
--   #### [Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)
+- #### [Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)
 
--   #### [My blog on how I created my Github READMEs](https://emmanueljose.medium.com/readme-a-makeover-story-b9c7be37a6de?sk=7ae6623d365409d875753e4604e42ffd)
+- #### [My blog on how I created my Github READMEs](https://emmanueljose.medium.com/readme-a-makeover-story-b9c7be37a6de?sk=7ae6623d365409d875753e4604e42ffd)
 
 <br>
 

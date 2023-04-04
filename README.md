@@ -26,6 +26,7 @@
 - [Installation](#installation)
 - [Live Site](#live-site)
 - [Resources](#resources)
+- [Copyright](#copyright)
 - [Let's Connect!](#lets-connect)
 
 <br>
@@ -88,6 +89,8 @@ open index.html
 
 <a href=#resources>![Resources](https://res.cloudinary.com/dn1e07eul/image/upload/v1659314247/Readme%20Headers/inter-resources_ncevbw.png)</a>
 
+- #### [Unsplash](https://unsplash.com/)
+
 - #### [Bouncing Particle Effects](https://youtu.be/j_BgnpMPxzM) by [Frank's Laboratory](https://www.youtube.com/c/Frankslaboratory)
 
 - #### [HTML5 Canvas Crash Course for Beginners](https://www.youtube.com/watch?v=Yvz_axxWG4Y) by [Frank's Laboratory](https://www.youtube.com/c/Frankslaboratory)
@@ -97,6 +100,18 @@ open index.html
 - #### [Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)
 
 - #### [My blog on how I created my Github READMEs](https://emmanueljose.medium.com/readme-a-makeover-story-b9c7be37a6de?sk=7ae6623d365409d875753e4604e42ffd)
+
+<br>
+
+#
+
+<p id="copyright"><p>
+
+<a href=#copyright>![Copyright](https://res.cloudinary.com/dn1e07eul/image/upload/v1659391383/Readme%20Headers/inter-copyright_ax53yz.png)</a>
+
+- Milky Way background image from © <a href="https://unsplash.com/">Unsplash</a>. All Rights Reserved.
+
+- All other visual assets of this project are copyright of © <a href="https://www.emmanuel-jose.com/">Emmanuel Jose</a>. All Rights Reserved.
 
 <br>
 
